@@ -1,0 +1,40 @@
+{
+  "name": "hospitals",
+  "plural": "hospitals",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "slogan": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "telephone": {
+      "type": "number",
+      "required": true
+    },
+    "address": {
+      "type": "string",
+      "required": true
+    },
+    "website": {
+      "type": "string"
+    },
+    "urlImg": {
+      "type": "string",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

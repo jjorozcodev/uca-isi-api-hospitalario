@@ -34,5 +34,9 @@
   "Role": {
     "dataSource": "pg",
     "public": false
+  },
+  "hospitals": {
+    "dataSource": "pg",
+    "public": true
   }
 }
