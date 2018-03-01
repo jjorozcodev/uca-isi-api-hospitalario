@@ -5,8 +5,9 @@
   },
   "pg": {
     "host": "localhost",
-    "database": "hospitalario",
+    "database": "postgres",
     "username": "postgres",
+    "password": "NodeRules",
     "name": "pg",
     "connector": "postgresql"
   }
