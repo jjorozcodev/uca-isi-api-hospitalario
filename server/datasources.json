@@ -2,5 +2,12 @@
   "db": {
     "name": "db",
     "connector": "memory"
+  },
+  "pg": {
+    "host": "localhost",
+    "database": "hospitalario",
+    "username": "postgres",
+    "name": "pg",
+    "connector": "postgresql"
   }
 }
